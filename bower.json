@@ -1,5 +1,5 @@
 {
-  "name": "pending",
+  "name": "pending.js",
   "description": "Asynchronous generator/promise library.",
   "main": "index.js",
   "authors": [
