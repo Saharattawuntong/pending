@@ -55,4 +55,16 @@ describe("pending()", () => {
     }).should.throw();
   });
 
+  it("Executes all the code after the final yield before execution returns to pending()", () => {
+    let flag = 'a';
+    function* task() {
+      yield Promise.resolve(1);
+      yield Promise.resolve(2);
+      flag.should.eql('a');
+    }
+    return pending(task()).then(() => {
+      flag = 'b';
+    });
+  });
+
 });
