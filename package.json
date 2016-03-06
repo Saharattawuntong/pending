@@ -1,5 +1,5 @@
 {
-  "name": "pending.js",
+  "name": "pending",
   "version": "0.0.1",
   "description": "Asynchronous generator/promise library.",
   "main": "index.js",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quxbaz/pending.js.git"
+    "url": "git+https://github.com/quxbaz/pending.git"
   },
   "author": "quxbaz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quxbaz/pending.js/issues"
+    "url": "https://github.com/quxbaz/pending/issues"
   },
-  "homepage": "https://github.com/quxbaz/pending.js#readme"
+  "homepage": "https://github.com/quxbaz/pending#readme"
 }

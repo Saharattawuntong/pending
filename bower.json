@@ -1,5 +1,5 @@
 {
-  "name": "pending.js",
+  "name": "pending",
   "description": "Asynchronous generator/promise library.",
   "main": "index.js",
   "authors": [
@@ -9,7 +9,7 @@
   "moduleType": [
     "es6"
   ],
-  "homepage": "https://github.com/quxbaz/pending.js.git",
+  "homepage": "https://github.com/quxbaz/pending.git",
   "private": true,
   "ignore": [
     "**/.*",
